@@ -19,7 +19,7 @@ class Config(object):
 
 
 class ProductionConfig(Config):
-    DEBUG = True
+    DEBUG = False 
 
     # Security
     SESSION_COOKIE_HTTPONLY = True
@@ -38,7 +38,7 @@ class ProductionConfig(Config):
 
 
 class DebugConfig(Config):
-    DEBUG = True
+    DEBUG = False
 
 
 # Load all possible configurations
